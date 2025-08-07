@@ -24,6 +24,204 @@ a {
     color: inherit;
 }
 
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+    img {
+        max-width: 100%;
+    }
+    a {
+        color: #e23744;
+    }
+    a:hover {
+        color: #c32f3b;
+    }
+    .container {
+        width: 95%;
+        padding: 0 10px;
+    }
+    .navbar-flow {
+        padding: 0.5rem 0;
+    }
+    .navbar-flow .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-links-flow {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-links-flow li {
+        margin: 0.5rem 0;
+    }
+    .hero-flow {
+        height: 60vh;
+        padding: 2rem 0;
+    }
+    .primary-title-flow {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .section-title-flow {
+        font-size: 2rem;
+    }
+    .product-grid-flow {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .product-flow {
+        padding: 1rem;
+    }
+    .product-image-flow {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+    .product-title-flow {
+        font-size: 1.3rem;
+    }
+    .product-description-flow {
+        font-size: 0.9rem;
+    }
+    .price-flow {
+        font-size: 1rem;
+    }
+    .footer-flow {
+        padding: 2rem 0;
+    }
+    .footer-grid-flow {
+        grid-template-columns: 1fr;
+    }
+    .cart-sidebar-flow {
+        width: 90%;
+        right: -90%;
+    }
+    .cart-sidebar-flow.active {
+        right: 0;
+    }
+    .cart-header-flow {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .cart-header-flow h2 {
+        margin-bottom: 1rem;
+    }
+    .cart-item-flow {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .cart-item-flow img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    .item-details-flow {
+        flex: 1;
+        margin-bottom: 10px;
+    }
+    .cart-total-flow {
+        font-size: 1.1em;
+        margin-top: 20px;
+    }
+    .checkout-btn-flow {
+        width: 100%;
+        padding: 0.75rem;
+    }
+    .checkout-flow {
+        padding: 3rem 0;
+    }
+    .checkout-grid-flow {
+        grid-template-columns: 1fr;
+    }
+    .checkout-grid-flow .cart-flow,
+    .checkout-grid-flow .form-flow {
+        margin-bottom: 2rem;
+    }
+    .signin-flow {
+        padding: 3rem 0;
+    }
+    .signin-container-flow {
+        padding: 1.5rem;
+        width: 90%;
+    }
+    .signin-container-flow h2 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    .signin-btn-flow {
+        width: 100%;
+        padding: 0.75rem;
+    }
+    .notification-flow {
+        bottom: 20px;
+        right: 20px;
+        width: calc(100% - 40px);
+        max-width: 300px;
+    }
+    .notification-flow.show {
+        bottom: 20px;
+        opacity: 1;
+    }
+    #cart-count-flow {
+        position: absolute;
+        top: -5px;
+        right: -10px;
+        background: #e23744;
+        color: white;
+        padding: 2px 6px;
+        border-radius: 50%;
+        font-size: 0.8rem;
+    }
+    .cart-icon-flow {
+        font-size: 24px;
+    }
+    .btn-flow {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+    .cover-image {
+        display: none; /* Hide the cover image on small screens */
+    }
+    .hero-flow {
+        background: none;
+        color: #000;
+        text-align: center;
+    }
+    .hero-flow .container {
+        padding: 2rem 1rem;
+    }
+    .hero-flow p {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .hero-flow .btn-flow {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+    .hero-flow img {
+        max-width: 100%;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+    }
+    .hero-flow h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .hero-flow p {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .hero-flow .primary-title-flow {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    
+
+   
+
+    
+}
+
 /* Container */
 .container {
     width: 90%;
